@@ -1,51 +1,59 @@
-# Project Title
+## Frogger Game
+Frogger is a vintage arcade game which we used to play when we were young
+We had a frogger java code which was not understandable.
+That we must refractor and add an additional scenes.
 
-One Paragraph of project description goes here
+## Refractoring.
 
-## Getting Started
+We seperated the classes into 4 packages each class is related to specific package. 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Example
+digit 
+Frogger_main
+obstacles
+player_act
 
-### Prerequisites
+Repetitive codes are refactored into constants such as path directory for better modifications.
 
-What things you need to install the software and how to install them
+Main no longer adds child nodes to the root nodes.
 
-```
-Give examples
-```
+obstacle factory generates the obstacles in the game.
 
-### Installing
+player_act classes handles the movement of the player and the turtle.
 
-A step by step series of examples that tell you how to get a development env running
+vechiles class for handling trucks and car in the game.
 
-Say what the step will be
 
-```
-Give the example
-```
 
-And repeat
+## Additions
 
-```
-until finished
-```
+main menu and information scene 
 
-End with an example of getting some data out of the system or using it for a little demo
+buttons to handle each event
 
-## Running the tests
+timer
 
-Explain how to run the automated tests for this system
+highscore
 
-### Break down into end to end tests
+scoreboard
 
-Explain what these tests test and why
+highscore
+
+Documentation
+
+
+
+
+
+### Screenshots
+
+
 ![m](https://user-images.githubusercontent.com/75530052/102678729-f9734f80-41b2-11eb-9c87-a12942f7a3ec.png)
 ![score](https://user-images.githubusercontent.com/75530052/102678637-66d2b080-41b2-11eb-9ba3-8184e78db7cc.png)
 
 ![info](https://user-images.githubusercontent.com/75530052/102678740-0b54f280-41b3-11eb-9187-c47df9ad0a19.png)
 ![game](https://user-images.githubusercontent.com/75530052/102678762-26bffd80-41b3-11eb-8ffc-fe61bf1a2057.png)
 
+## Authors
 
-
-```
-Give an example
+* **Karim Fadl** - *Initial work* - [karimbo20](https://github.com/karimbo20)
